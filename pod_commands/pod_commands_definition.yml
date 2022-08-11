@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu-spleeper-2
+spec:
+  containers:
+    - name: ubuntu
+      image: ubuntu
+      command: [ "spleep", "5000" ]

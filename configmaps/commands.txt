@@ -1,0 +1,5 @@
+- kubectl get configmaps
+- kubectl describe configmaps app-config
+- kubectl create configmap db-config --from-literal=db=staging
+- kubectl create configmap db-config-file --from-file=config.txt
+- kubectl create configmap db-config-dir --from-file=app-config

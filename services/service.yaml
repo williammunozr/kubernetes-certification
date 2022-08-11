@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2022-07-18T16:54:07Z"
+  labels:
+    app: kplabs-service
+  name: kplabs-service
+  namespace: default
+  resourceVersion: "25712"
+  uid: 858b024b-5b50-426c-a707-7b7217865812
+spec:
+  clusterIP: 10.43.52.124
+  clusterIPs:
+  - 10.43.52.124
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: 8080-80
+    port: 8080
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: kplabs-service
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

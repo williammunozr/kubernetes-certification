@@ -1,0 +1,8 @@
+apiVersion: stable.godeveloper.net/v1
+kind: CronTab
+metadata:
+    name: godeveloper-contab
+spec:
+    cronSpec: "* * * * */5"
+    image: busybox
+    replicas: 3

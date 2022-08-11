@@ -1,0 +1,2 @@
+- kubectl create namespace default-mem-example
+- kubectl get pod default-mem-demo --output=yaml --namespace=default-mem-example
