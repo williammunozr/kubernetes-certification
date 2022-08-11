@@ -1,5 +1,7 @@
 # Kubernetes Certified Administrator & Application Developer Notes
 
+Kubernetes Administrator & Developer.
+
 I use this repository to study Kubernetes, mostly when I am reading the official Kubernetes's documentation. When I started to study for the CKA exam I created this repository with the only intention to have a single place to record the process. 
 
 ## Certifications
