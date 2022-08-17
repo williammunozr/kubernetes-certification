@@ -34,6 +34,8 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 - Google GKE
 - Azure AKS
 - DigitalOcean Kubernetes
+- Go Programming Language
+- Terraform
 - ArgoCD
 - GitHub Actions
 - Prometheus & Grafana
