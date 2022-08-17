@@ -1,6 +1,6 @@
 # Notes
 
-## Study
+## Study Plan
 
 Dedicate one hour for every topic.
 
