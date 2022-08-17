@@ -27,3 +27,14 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 - https://saiyampathak.gumroad.com/l/cksbook
 - https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist
 - https://killer.sh
+
+## Log
+
+- Amazon EKS
+- Google GKE
+- Azure AKS
+- DigitalOcean Kubernetes
+- ArgoCD
+- GitHub Actions
+- Prometheus & Grafana
+- Datadog
