@@ -14,6 +14,8 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 
 ## Certified Kubernetes Application Developer
 
+It is recommended to read the official Kubernetes documentation before to attempt the exam.
+
 - https://kubernetes.io/docs/home/
 - https://github.com/dgkanatsios/CKAD-exercises
 - https://github.com/ahmetb/kubernetes-network-policy-recipes
