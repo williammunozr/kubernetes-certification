@@ -1,6 +1,6 @@
 # Kubernetes Certifications Notes
 
-I use this repository to study Kubernetes, mostly when I am reading the official Kubernetes's documentation and preparing for a Kubernetes certification.
+I use this repository to study Kubernetes, mostly when I am reading the official Kubernetes documentation and preparing for a Kubernetes certification.
 
 ## Certifications
 
