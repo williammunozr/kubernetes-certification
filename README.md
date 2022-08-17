@@ -1,8 +1,6 @@
-# Kubernetes Certified Administrator & Application Developer Notes
+# Kubernetes Certifications Notes
 
-Kubernetes Administrator & Developer.
-
-I use this repository to study Kubernetes, mostly when I am reading the official Kubernetes's documentation. When I started to study for the CKA exam I created this repository with the only intention to have a single place to record the process. 
+I use this repository to study Kubernetes, mostly when I am reading the official Kubernetes's documentation and preparing for a Kubernetes certification.
 
 ## Certifications
 
@@ -15,8 +13,6 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 - Certified Kubernetes Security Specialist (CKS) [Scheduled for Dec 2024]
 
 ## Certified Kubernetes Application Developer
-
-Simple process:
 
 - https://kubernetes.io/docs/home/
 - https://github.com/dgkanatsios/CKAD-exercises
