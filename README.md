@@ -11,8 +11,8 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 ## Certifications Plan
 
 - Certified Kubernetes Application Developer (CKAD) [In Progress 2022]
-- Certified Kubernetes Security Specialist (CKS) [Scheduled for June 2023]
 - Certified Kubernetes Administrator (CKA) Recertification [December 2023]
+- Certified Kubernetes Security Specialist (CKS) [Scheduled for Dec 2024]
 
 ## Certified Kubernetes Application Developer
 
@@ -31,13 +31,3 @@ Simple process:
 - https://saiyampathak.gumroad.com/l/cksbook
 - https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist
 - https://killer.sh
-
-## Things to study
-
-- Entrypoints & Commands
-- Volume management
-- Kubernetes documentation (*)
-  - Concepts
-    - Workloads
-      - Pods
-      - Workload Resources
