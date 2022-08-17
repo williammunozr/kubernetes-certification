@@ -28,7 +28,7 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 - https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist
 - https://killer.sh
 
-## Log
+## Stack
 
 - Amazon EKS
 - Google GKE
