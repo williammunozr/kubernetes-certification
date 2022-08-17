@@ -33,7 +33,7 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 - Amazon EKS
 - Google GKE
 - Azure AKS
-- DigitalOcean Kubernetes
+- DigitalOcean® Kubernetes
 - Go Programming Language
 - Terraform
 - ArgoCD
