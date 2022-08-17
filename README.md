@@ -4,7 +4,7 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 
 ## Certifications
 
-- Certified Kubernetes Administrator (CKA) [Done 2020]
+- Certified Kubernetes Administrator (CKA) [Done 2020] ⋆
 
 ## Certifications Plan
 
