@@ -178,3 +178,16 @@ kubectl get pods --sort-by=.metadata.name
 kubectl get pods --sort-by=.metadata.creationTimestamp
 ```
 
+## Create a resource quota with hard limits
+
+```
+kubectl create quota myrq --hard=cpu=1,memory=1G,pods=2 --dry-run=client -o yaml
+```
+
+## Create an nginx pod and set an env value as 'var1=val1'
+
+```
+kubectl run nginx --image=nginx --restart=Never --port=80 --env=var1=val1
+
+kubectl exec nginx -- env
+```
