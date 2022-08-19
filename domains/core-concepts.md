@@ -54,12 +54,6 @@ kubectl create -f nginx-pod.yaml
 kubectl get pod nginx -o yaml
 ```
 
-## Output the yaml file of the pod you just created without the cluster-specific information
-
-```
-kubectl get pod nginx -o yaml --export
-```
-
 ## Get the complete details of the pod you just created
 
 ```
@@ -69,7 +63,7 @@ kubectl describe pod nginx
 ## Delete the pod you just created
 
 ```
-kubectl delete po nginx 
+kubectl delete pod nginx 
 
 kubectl delete -f nginx-pod.yaml
 ```
@@ -147,7 +141,7 @@ kubectl exec -it busybox -- wget -o- <IP Address>
 ```
 kubectl run busybox --image=nginx --restart=Never -it -- echo "How are you"
 
-kubectl delete pod busybox
+kubectl delete pod busybox --force
 ```
 
 ## Create a busybox pod and echo message "How are you" and delete it immediately
@@ -169,7 +163,7 @@ kubectl get pod nginx --v=9
 ## List the nginx pod with custom columns POD_NAME and POD_STATUS
 
 ```
-kuebctl get pod -o=custom-columns="POD_NAME:.metadata.name,POD_STATUS:.status.containerStatuses[].state"
+kubectl get pod -o=custom-columns="POD_NAME:.metadata.name,POD_STATUS:.status.containerStatuses[].state"
 ```
 
 ## List all the pods sorted by name
