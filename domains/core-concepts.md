@@ -1,4 +1,4 @@
-# Namespaces
+# Core Concepts
 
 ## List all the Namespaces
 
