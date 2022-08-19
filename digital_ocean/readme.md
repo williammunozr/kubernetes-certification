@@ -3,6 +3,22 @@
 ## List the Kubernetes options
 
 ```
+doctl kubernetes options versions
+Slug            Kubernetes Version    Supported Features
+1.23.9-do.0     1.23.9                cluster-autoscaler, docr-integration, ha-control-plane, token-authentication
+1.22.12-do.0    1.22.12               cluster-autoscaler, docr-integration, ha-control-plane, token-authentication
+1.21.14-do.1    1.21.14               cluster-autoscaler, docr-integration, ha-control-plane, token-authentication
+```
+
+## List compute size
+
+```
+doctl compute size list
+```
+
+## List the clusters
+
+```
 doctl kubernetes clusters list
 
 ID                                      Name       Region    Version         Auto Upgrade    Status     Node Pools
@@ -12,7 +28,7 @@ ID                                      Name       Region    Version         Aut
 ## Create a Cluster
 
 ```
-doctl kubernetes cluster create ckadlab --count 2 --size s-1vcpu-2gb --version 1.22.11-do.0 --region nyc1
+doctl kubernetes cluster create ckadlab --count 2 --size s-1vcpu-2gb --version 1.23.9-do.0 --region nyc1
 ```
 
 ## List Cluster's Nodes
