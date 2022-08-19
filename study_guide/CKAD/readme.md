@@ -42,3 +42,4 @@
 ## Resources
 
 - [Curriculum Overview](https://github.com/cncf/curriculum)
+- [Candidate Handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2)
