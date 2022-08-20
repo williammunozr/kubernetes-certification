@@ -59,6 +59,12 @@ selector:
         - {key: environment, operator: NotIn, values: [dev]}
 ```
 
+## Recommended Labels
+
+Look at the documentation. (The second link in the Resources section below).
+
 ## Resources
 
 - https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+- https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/
+
