@@ -12,4 +12,26 @@ Kubernetes runs your workload by placing containers into Pods to run on Nodes. A
 - Container Runtime
 - kube-proxy
 
+## Manual Node Administration
+
+- You can create and modify Node objects using `kubectl`.
+- When you want to create Node objects manually, set the kubelet flag `--register-node=false`.
+- Marking a node as unschedulable prevents the scheduler from placing new pods onto that Node but does not affect existing Pods on the Node.
+
+To mark a Node unschedulable, run:
+
+```
+kubectl cordon <node-name>
+```
+
+## Node Status
+
+- Addresses
+- Conditions
+- Capacity and Allocatable
+- Info
+
+## Resources
+
+- https://kubernetes.io/docs/concepts/architecture/nodes/
 
