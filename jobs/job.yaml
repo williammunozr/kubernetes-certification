@@ -9,5 +9,5 @@ spec:
       - name: kplabs-pods
         image: busybox
         command: ["/bin/sh"]
-        args: ["-c", "echo Hello World!"]
+        args: ["-c", "echo Hello Kubernetes!"]
       restartPolicy: Never
