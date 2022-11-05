@@ -8,9 +8,9 @@ I use this repository to study Kubernetes, mostly when I am reading the official
 
 ## Certifications Plan
 
-- Certified Kubernetes Application Developer (CKAD) [In Progress 2022] ✦
+I've defined that I only want to have the `Certified Kubernetes Administrator (CKA)` certification.
+
 - Certified Kubernetes Administrator (CKA) Recertification [December 2023]
-- Certified Kubernetes Security Specialist (CKS) [Scheduled for Dec 2024]
 
 ## Certified Kubernetes Application Developer
 
